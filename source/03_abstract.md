@@ -1,0 +1,5 @@
+# Abstract {.unnumbered}
+
+<!-- This is the abstract -->
+
+Working with data exported from animal trackers or animal movement simulation models can often be difficult to computationally process. Today, cheaper technology allows for more data to be generated, which adds to this problem. Also, this topic is becoming more popular lately as technology to accurately track and log animals did not exist in the past. With all of this data being generated, real or simulated, tools need to be developed to efficiently process it all. This project, pytracks, attempts to help programmers who work with animal movement simulation data by allowing them to visualize and analyze their data more efficiently. Pytracks is a library written in Python which wraps raw data files from simulation models with an easy to use  API. This allows programmers to spend less time on trivial raw file importing and more on data visualization and processing. Pytracks also has many examples included to show how to utilize it. By using pytracks, the code to visualize sample data is much shorter and easier interpret than without it.

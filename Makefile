@@ -31,8 +31,8 @@ pdf:
 	--template="$(STYLEDIR)/template.tex" \
 	--bibliography="$(BIBFILE)" 2>pandoc.log \
 	--csl="$(STYLEDIR)/ref_format.csl" \
-	-V fontsize=12pt \
-	-V papersize=a4paper \
+	-V fontsize=11pt \
+	-V papersize=letter \
 	-V documentclass:report \
 	-N \
 	--latex-engine=xelatex
@@ -42,8 +42,8 @@ tex:
 	-o "$(OUTPUTDIR)/thesis.tex" \
 	-H "$(STYLEDIR)/preamble.tex" \
 	--bibliography="$(BIBFILE)" \
-	-V fontsize=12pt \
-	-V papersize=a4paper \
+	-V fontsize=11pt \
+	-V papersize=letter \
 	-V documentclass:report \
 	-N \
 	--csl="$(STYLEDIR)/ref_format.csl" \

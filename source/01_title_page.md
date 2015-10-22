@@ -1,50 +1,35 @@
 <!-- 
 This is the Latex-heavy title page. 
-People outside UCL may want to remove the header logo 
-and add the centred logo
 -->
 
 \begin{titlepage}
     \begin{center}
 
-    % Delete the following line
-    % to remove the UCL header logo
-    \ThisULCornerWallPaper{1.0}{style/univ_logo.eps}
-        
-        \vspace*{2.5cm}
+        \includegraphics[]{style/lsu-logo.jpg}
         
         \huge
-        This is the title of the thesis
+        Visualization of Fish Movement Tracks on Different Scales
         
-        \vspace{1.5cm}
+        \vspace{.25in}
         
         \Large
-        Firstname Surname
+        Ross Fossum
 
-        \vspace{1.5cm}
+        \vspace{.25in}
 
         \normalsize
         A thesis presented for the degree of\\
-        Doctor of Philosophy
+        Masters of Systems Science\\
+        in\\
+        The Department of Computer Science and Engineering\\
+        at\\
+        Louisiana State University and Agricultural and Mechanical College\\
+        Baton Rouge, Louisiana, 70803, USA
         
         \vfill
         
-        \normalsize
-        Supervised by:\\
-        Professor Louis Fage\\
-        Captain J. Y. Cousteau
-
-        \vspace{0.8cm}
-
-        % Uncomment the following line
-        % to add a centered university logo
-        % \includegraphics[width=0.4\textwidth]{style/univ_logo.eps}
-        
-        \normalsize
-        University College London, UK\\
-        January 2015
-
-        % Except where otherwise noted, content in this thesis is licensed under a Creative Commons Attribution 4.0 License (http://creativecommons.org/licenses/by/4.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. Copyright 2015,Tom Pollard.
+        Advisor:\\
+        Dr. Bijaya B. Karki
 
     \end{center}
 \end{titlepage}
