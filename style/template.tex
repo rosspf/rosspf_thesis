@@ -74,7 +74,16 @@ $if(listings)$
 \usepackage{listings}
 $endif$
 $if(lhs)$
-\lstnewenvironment{code}{\lstset{language=Haskell,basicstyle=\small\ttfamily}}{}
+\lstnewenvironment{code}{
+  \lstset{
+    language=Python,
+    numbers=left,
+    stepnumber=5
+    firstnumber=1
+    numberfirstline=true
+    basicstyle=\small\ttfamily
+  }
+}{}
 $endif$
 $if(highlighting-macros)$
 $highlighting-macros$

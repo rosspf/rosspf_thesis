@@ -35,6 +35,7 @@ pdf:
 	-V papersize=letter \
 	-V documentclass:report \
 	-N \
+	--verbose \
 	--latex-engine=xelatex
 
 tex:
